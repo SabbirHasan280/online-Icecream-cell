@@ -1,0 +1,238 @@
+/* cmn css */
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+.clr {
+  clear: both;
+}
+.full_wrapper {
+  width: 100%;
+  background: #f3f3f3;
+}
+.wrapper {
+  width: 1070px;
+  margin: 0 auto;
+}
+/* cmnn css */
+
+/* header part start */
+.header .logo {
+  width: 5%;
+  height: 20px;
+  float: left;
+  padding-top: 40px;
+}
+
+.header .logo_react {
+  width: 6%;
+  height: 20px;
+  float: left;
+  padding-left: 84%;
+  padding-top: 40px;
+}
+.header img {
+  width: 60px;
+  height: 60px;
+}
+.header h3 {
+  padding-top: 58px;
+}
+.header .line {
+  margin-top: 38px;
+  border-bottom: 1px solid #5250507e;
+}
+/* header part end */
+
+/* body part start */
+/* iceCream part start */
+/* iceCreamBuilder part start*/
+.iceCreamBuilder {
+  padding-top: 100px;
+}
+.iceCreamBuilder h4 {
+  margin-bottom: 60px;
+}
+/* iceCreamBuilder part end */
+
+/* icecream */
+.iceCreamBuilder .iceCream {
+  width: 47%;
+  float: left;
+}
+.iceCream {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  min-height: 632px;
+}
+.cone {
+  margin-top: -20px;
+  height: 0px;
+  width: 0px;
+  border-right: 45px solid transparent;
+  border-left: 45px solid transparent;
+  border-top: 140px solid tan;
+}
+
+.cherry {
+  background: url(../images/cherry.png) center/cover no-repeat;
+  width: 50px;
+  height: 77px;
+  margin-bottom: -10px;
+}
+
+/* scoop */
+
+.scoop {
+  width: 100px;
+  height: 80px;
+  border-radius: 100%;
+  position: relative;
+  margin-bottom: -45px;
+  z-index: 3;
+}
+
+.scoop::after {
+  content: "";
+  position: absolute;
+  bottom: 10px;
+  left: -10px;
+  height: 35px;
+  width: 120px;
+  border-radius: 100%;
+  z-index: 2;
+}
+
+div.scoop:first-of-type {
+  margin-bottom: 0px;
+}
+
+.chocolate,
+.chocolate::after {
+  background: #b98160;
+}
+
+.vanilla,
+.vanilla::after {
+  background: #fae8b6;
+}
+
+.strawberry,
+.strawberry::after {
+  background: pink;
+}
+
+.orange,
+.orange::after {
+  background: orange;
+}
+
+.lemon,
+.lemon::after {
+  background: #5fd592;
+}
+
+/* iceCream part end */
+
+/* builder partt start */
+.iceCreamBuilder .builder {
+  background: #fff;
+  float: left;
+  border: 1px solid #ced2da;
+  padding-top: 40px;
+  padding-left: 20px;
+}
+/* item part start */
+.react_item {
+  margin-bottom: 17px;
+}
+/* item partt end */
+
+/* item buttonn partt start */
+.react_item .right {
+  margin-left: 400px;
+  padding-right: 20px;
+}
+.right .plus {
+  background: red;
+  padding: 6px 15px;
+  border-radius: 3px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+.right .quantity {
+  margin: 7px;
+  color: #000;
+  font-weight: bold;
+  background: #8fbc8f;
+  padding: 6px 10px;
+  border-radius: 50%;
+}
+.right .minus {
+  background: green;
+  padding: 6px 15px;
+  border-radius: 3px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+/* item button part end */
+
+/* total part start */
+.total {
+  border-top: 1px solid #5250507e;
+  width: 92%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+/* total part end */
+
+/* total button part start */
+.order {
+  background-color: #28a745;
+  color: #fff;
+  border: 1px solid transparent;
+  margin: 30px 0;
+  width: 96%;
+  padding: 10px 0;
+  font-weight: bold;
+  border-radius: 3px;
+}
+/* total buttonn part end */
+/* builder part end */
+
+/* footer part start */
+.green {
+  /* padding-top: 100px; */
+  padding-bottom: 60px;
+}
+footer .footer {
+  border-top: 1px solid #5250507e;
+  justify-content: space-between;
+  display: flex;
+  color: #616163;
+}
+.footer .textleft {
+  padding-top: 15px;
+}
+.footer .textRight {
+  padding-top: 15px;
+}
+.footer .red {
+  color: red;
+  background: #fff;
+}
+/* footer part end */

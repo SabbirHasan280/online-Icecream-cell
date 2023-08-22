@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+  <head lang="en">
+    <title>ice cream</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- header part satrt -->
+    <div class="full_wrapper">
+      <div class="wrapper">
+        <header>
+          <div class="header">
+            <div class="logo">
+              <img src="./images/logo.svg" />
+            </div>
+            <div class="logo_react">
+              <img src="./images/React-icon.svg.png" />
+            </div>
+            <h3>React</h3>
+            <div class="line"></div>
+          </div>
+          <div class="clr"></div>
+        </header>
+      </div>
+    </div>
+    <!-- </div> -->
+    <!-- header part end -->
+
+    <!-- body part start -->
+    <div class="full_wrapper mainBody">
+      <div class="wrapper">
+        <div class="iceCreamBuilder">
+          <!-- iceCream part start -->
+          <div class="iceCream">
+            <div class="iceCream react">
+              <p class="cone"></p>
+              <!-- <p>Please start adding scoops</p> -->
+              <div class="scoop chocolate"></div>
+              <div class="scoop vanilla"></div>
+              <div class="scoop orange"></div>
+              <div class="scoop strawberry"></div>
+              <div class="scoop chocolate"></div>
+              <div class="scoop vanilla react"></div>
+              <div class="scoop lemon"></div>
+              <div class="cherry"></div>
+            </div>
+          </div>
+          <!-- iceCream part end -->
+
+          <!-- builder part start -->
+          <div class="builder">
+            <h4>Build your own Ice Cream Sundae</h4>
+
+            <!-- item part start -->
+            <div class="react_items">
+              <!-- item one -->
+              <div class="react_item">
+                <ul>
+                  <li><span>Vanilla</span></li>
+                </ul>
+                <div class="right">
+                  <button type="button" class="plus rounded">+</button>
+                  <span class="quantity">1</span>
+                  <button type="button" class="minus rounded">-</button>
+                </div>
+              </div>
+              <!-- item one -->
+
+              <!-- item two -->
+              <div class="react_item">
+                <ul>
+                  <li><span>Chocolate</span> </li>
+                </ul>
+                <div class="right">
+                  <button type="button" class="plus rounded">+</button>
+                  <span class="quantity">0</span>
+                  <button type="button" class="minus rounded">-</button>
+                </div>
+              </div>
+              <!-- item two -->
+
+              <!-- item three -->
+              <div class="react_item">
+                <ul>
+                  <li>
+                    <span>Strawberry</span> </span>
+                  </li>
+                </ul>
+                <div class="right">
+                  <button type="button" class="plus rounded">+</button>
+                  <span class="quantity">0</span>
+                  <button type="button" class="minus rounded">-</button>
+                </div>
+              </div>
+              <!-- item three -->
+
+              <!-- item four -->
+              <div class="react_item">
+                <ul>
+                  <li><span>Orange</span> </li>
+                </ul>
+                <div class="right">
+                  <button type="button" class="plus rounded">+</button>
+                  <span class="quantity">0</span>
+                  <button type="button" class="minus rounded">-</button>
+                </div>
+              </div>
+              <!-- item four -->
+            </div>
+            <!-- item part end -->
+
+            <!-- total part start -->
+            <div class="total react">
+              <div>Total Price</div>
+              <div>3000.00 Tk</div>
+            </div>
+            <!-- total part end -->
+
+            <button type="button" onclick="next()" class="order rounded">
+              Add to Cart
+            </button>
+          </div>
+          <!-- builder part end -->
+        </div>
+        <div class="clr"></div>
+      </div>
+    </div>
+    <!-- body part end -->
+
+    <!-- <div class="react" id="modal">
+      <div class="backdrop" onclick="removeModal()"></div>
+      <div class="modalBody"></div>
+    </div> -->
+
+    <!-- footer part satrt -->
+    <div class="full_wrapper green">
+      <div class="wrapper">
+        <footer>
+          <div class="footer">
+            <div class="textleft">Copyright &copy;2022.</div>
+            <div class="textRight">
+              Built with <span class="red">&hearts;</span> by
+              <a
+                href="https://reactjs.org/docs/create-a-new-react-app.html"
+                target="_blank"
+                >Create React App</a
+              >
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <!-- footer part end -->
+  </body>
+</html>
