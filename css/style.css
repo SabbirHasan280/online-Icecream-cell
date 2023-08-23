@@ -1,4 +1,4 @@
-/* cmn css */
+/* cmn css start*/
 * {
   margin: 0;
   padding: 0;
@@ -22,7 +22,7 @@ ol {
   width: 1070px;
   margin: 0 auto;
 }
-/* cmnn css */
+/* cmnn css end*/
 
 /* header part start */
 .header .logo {
