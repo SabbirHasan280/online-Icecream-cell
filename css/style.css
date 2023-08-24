@@ -223,7 +223,8 @@ footer .footer {
   border-top: 1px solid #5250507e;
   justify-content: space-between;
   display: flex;
-  color: #616163;
+  /* color: #616163; */
+  color: #47477c;
 }
 .footer .textleft {
   padding-top: 15px;
